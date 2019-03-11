@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02984DA22336CEA00CD17CD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02984D922336CEA00CD17CD /* APIClient.swift */; };
+		A02984DD2233A76200CD17CD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02984DC2233A76200CD17CD /* RootViewController.swift */; };
+		A02984DF2233A8E200CD17CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02984DE2233A8E200CD17CD /* HomeViewController.swift */; };
+		A02984EB223527E500CD17CD /* Static.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A02984E9223527C500CD17CD /* Static.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A02984EC223527F800CD17CD /* Static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02984E9223527C500CD17CD /* Static.framework */; };
+		A02984F22236A27E00CD17CD /* ReaderDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02984F12236A27E00CD17CD /* ReaderDiscoveryViewController.swift */; };
+		A02984F42236A2F600CD17CD /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02984F32236A2F600CD17CD /* CustomViews.swift */; };
+		A02984F62236A34500CD17CD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02984F52236A34500CD17CD /* UIView+Extension.swift */; };
 		A056E3E72232AC4400FBAD2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056E3E62232AC4400FBAD2B /* AppDelegate.swift */; };
 		A056E3E92232AC4400FBAD2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A056E3E82232AC4400FBAD2B /* ViewController.swift */; };
 		A056E3EC2232AC4400FBAD2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A056E3EA2232AC4400FBAD2B /* Main.storyboard */; };
 		A056E3EE2232AC4500FBAD2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A056E3ED2232AC4500FBAD2B /* Assets.xcassets */; };
 		A056E3F12232AC4500FBAD2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A056E3EF2232AC4500FBAD2B /* LaunchScreen.storyboard */; };
+		F7DE5E3A0D6BA9CB7A493E91 /* Pods_JNetStripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4668F96D64A2E50235F28EA /* Pods_JNetStripe.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A056E4012232ACDD00FBAD2B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A02984EB223527E500CD17CD /* Static.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5825485C09D773335178B956 /* Pods-JNetStripe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNetStripe.debug.xcconfig"; path = "Target Support Files/Pods-JNetStripe/Pods-JNetStripe.debug.xcconfig"; sourceTree = "<group>"; };
+		A02984D922336CEA00CD17CD /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A02984DC2233A76200CD17CD /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A02984DE2233A8E200CD17CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A02984E9223527C500CD17CD /* Static.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Static.framework; sourceTree = "<group>"; };
+		A02984F12236A27E00CD17CD /* ReaderDiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderDiscoveryViewController.swift; sourceTree = "<group>"; };
+		A02984F32236A2F600CD17CD /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		A02984F52236A34500CD17CD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		A056E3E32232AC4400FBAD2B /* JNetStripe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNetStripe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A056E3E62232AC4400FBAD2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A056E3E82232AC4400FBAD2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +53,8 @@
 		A056E3ED2232AC4500FBAD2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A056E3F02232AC4500FBAD2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A056E3F22232AC4500FBAD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A16CA875ED49A852FA20AB /* Pods-JNetStripe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNetStripe.release.xcconfig"; path = "Target Support Files/Pods-JNetStripe/Pods-JNetStripe.release.xcconfig"; sourceTree = "<group>"; };
+		F4668F96D64A2E50235F28EA /* Pods_JNetStripe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNetStripe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +62,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DE5E3A0D6BA9CB7A493E91 /* Pods_JNetStripe.framework in Frameworks */,
+				A02984EC223527F800CD17CD /* Static.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A02984DB2233A74100CD17CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A02984DC2233A76200CD17CD /* RootViewController.swift */,
+				A02984DE2233A8E200CD17CD /* HomeViewController.swift */,
+				A02984F12236A27E00CD17CD /* ReaderDiscoveryViewController.swift */,
+				A02984F32236A2F600CD17CD /* CustomViews.swift */,
+				A02984F52236A34500CD17CD /* UIView+Extension.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A056E3DA2232AC4400FBAD2B = {
 			isa = PBXGroup;
 			children = (
 				A056E3E52232AC4400FBAD2B /* JNetStripe */,
 				A056E3E42232AC4400FBAD2B /* Products */,
+				A056E3F82232AC8E00FBAD2B /* Frameworks */,
+				FF2E2456F048A3B546D882A0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +103,34 @@
 		A056E3E52232AC4400FBAD2B /* JNetStripe */ = {
 			isa = PBXGroup;
 			children = (
+				A02984D922336CEA00CD17CD /* APIClient.swift */,
 				A056E3E62232AC4400FBAD2B /* AppDelegate.swift */,
 				A056E3E82232AC4400FBAD2B /* ViewController.swift */,
+				A02984DB2233A74100CD17CD /* Controllers */,
 				A056E3EA2232AC4400FBAD2B /* Main.storyboard */,
 				A056E3ED2232AC4500FBAD2B /* Assets.xcassets */,
 				A056E3EF2232AC4500FBAD2B /* LaunchScreen.storyboard */,
 				A056E3F22232AC4500FBAD2B /* Info.plist */,
 			);
 			path = JNetStripe;
+			sourceTree = "<group>";
+		};
+		A056E3F82232AC8E00FBAD2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02984E9223527C500CD17CD /* Static.framework */,
+				F4668F96D64A2E50235F28EA /* Pods_JNetStripe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF2E2456F048A3B546D882A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5825485C09D773335178B956 /* Pods-JNetStripe.debug.xcconfig */,
+				E3A16CA875ED49A852FA20AB /* Pods-JNetStripe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A056E3F52232AC4500FBAD2B /* Build configuration list for PBXNativeTarget "JNetStripe" */;
 			buildPhases = (
+				0DBD41727D04A74128CD0B2B /* [CP] Check Pods Manifest.lock */,
 				A056E3DF2232AC4400FBAD2B /* Sources */,
 				A056E3E02232AC4400FBAD2B /* Frameworks */,
 				A056E3E12232AC4400FBAD2B /* Resources */,
+				A056E4012232ACDD00FBAD2B /* Embed Frameworks */,
+				8AE78AA148012E806885F4A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +202,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DBD41727D04A74128CD0B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JNetStripe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE78AA148012E806885F4A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JNetStripe/Pods-JNetStripe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/StripeTerminal/Carthage/Build/iOS/StripeTerminal.framework",
+				"${PODS_ROOT}/StripeTerminal/Carthage/Build/iOS/StripeTerminal.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StripeTerminal.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/StripeTerminal.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JNetStripe/Pods-JNetStripe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A056E3DF2232AC4400FBAD2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02984F22236A27E00CD17CD /* ReaderDiscoveryViewController.swift in Sources */,
+				A02984DF2233A8E200CD17CD /* HomeViewController.swift in Sources */,
+				A02984F62236A34500CD17CD /* UIView+Extension.swift in Sources */,
+				A02984F42236A2F600CD17CD /* CustomViews.swift in Sources */,
 				A056E3E92232AC4400FBAD2B /* ViewController.swift in Sources */,
 				A056E3E72232AC4400FBAD2B /* AppDelegate.swift in Sources */,
+				A02984DD2233A76200CD17CD /* RootViewController.swift in Sources */,
+				A02984DA22336CEA00CD17CD /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,10 +409,17 @@
 		};
 		A056E3F62232AC4500FBAD2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5825485C09D773335178B956 /* Pods-JNetStripe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JNetStripe",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JNetStripe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +433,17 @@
 		};
 		A056E3F72232AC4500FBAD2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A16CA875ED49A852FA20AB /* Pods-JNetStripe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JNetStripe",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = JNetStripe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

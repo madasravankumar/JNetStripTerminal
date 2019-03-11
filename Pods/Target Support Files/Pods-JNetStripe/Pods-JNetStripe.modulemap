@@ -1,0 +1,6 @@
+framework module Pods_JNetStripe {
+  umbrella header "Pods-JNetStripe-umbrella.h"
+
+  export *
+  module * { export * }
+}
